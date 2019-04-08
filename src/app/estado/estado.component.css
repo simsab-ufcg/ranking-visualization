@@ -1,0 +1,60 @@
+.list-group-item {
+    background-color: transparent;
+}
+
+.ranking-card {
+    padding-left: 2%;
+}
+
+.errspan {
+    float: right;
+    margin-right: 20px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.table-col {
+    float: right;
+    margin-top: 0 !important;
+}
+
+.img-log {
+    width: 90%;
+    height: auto;
+}
+
+.plot-col {
+    float: left;
+    padding-top: 2%;
+    padding-left: 8%;
+}
+
+.text-imdd {
+    padding-top: 2%;
+}
+
+.imdd {
+    width: 90%;
+    height: auto;
+}
+
+.large-text {
+    width: 80%;
+    padding-left: 5%;
+    word-wrap: normal;
+}
+
+.imd-col {
+    padding-left: 8%;
+}
+
+.nav-estados {
+    width: 90%;
+    padding-top: 2%;
+}
+
+.panel {
+    width: 90% !important;
+}

@@ -1,0 +1,25 @@
+.breadcrumb-project {
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.arr-right .breadcrumb-item+.breadcrumb-item::before {
+ 
+    content: "›";
+   
+    vertical-align:top;
+   
+    color: #408080;
+   
+    font-size:35px;
+   
+    line-height:18px;
+   
+  }
+
+  .breadcrumb-project {
+      margin-top: 3%;
+  }
+
+  .breadcrumb {
+      background-color: transparent !important;
+  }
