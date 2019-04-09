@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { EstadoComponent } from './estado/estado.component';
+import { EstadoService } from './services/estado.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { EstadoComponent } from './estado/estado.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [EstadoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
