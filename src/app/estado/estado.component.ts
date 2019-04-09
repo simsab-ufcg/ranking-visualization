@@ -18,7 +18,7 @@ export class EstadoComponent implements OnInit {
   }
 
   public loadEstados() {
-      this.estadoService.getAll().subscribe(response => this.estadoList = response);
+      //this.estadoService.getAll().subscribe(response => this.estadoList = response);
   }
 
 }
